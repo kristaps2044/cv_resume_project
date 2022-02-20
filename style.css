@@ -1,7 +1,5 @@
-
-.kaste{
-    padding-top: 100px;
-    padding: 0;
+.block{
+    display: flex;
 }
 .input-styles{
     margin: 10px;
