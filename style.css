@@ -35,7 +35,11 @@ body{
 .cv-selection-item{
     width:100px;
     margin-left: 2rem;
+    
 }
 .cv-selection-item img{
     width:100px;
+    border: solid; 
+    border-color: grey; 
+    border-radius: 4px;
 }
