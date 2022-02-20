@@ -26,3 +26,17 @@ html{
 body{
     background-color: rgb(255, 255, 255);
 }
+
+.cv-selection{
+    width:0.75rem;
+    height:1rem;
+    border-radius:25px;
+    box-shadow: 12px 12px 2px 1px rgba(167, 167, 167, 0.2);;
+}
+.cv-selection-options{
+    display:flex;
+}
+.cv-selections-cvs{
+    display:flex;
+    flex-direction: column;
+}
