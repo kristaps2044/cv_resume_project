@@ -19,6 +19,9 @@ html{
 
 
 }
+.input-styles{
+    margin: 10px;
+}
 
 body{
     background-color: rgb(255, 255, 255);
