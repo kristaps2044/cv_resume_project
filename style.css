@@ -1,7 +1,5 @@
-
-.kaste{
-    padding-top: 100px;
-    padding: 0;
+.block{
+    display: flex;
 }
 .input-styles{
     margin: 10px;
@@ -14,15 +12,23 @@ body{
 }
 
 .cv-selection{
-    width:0.75rem;
-    height:1rem;
+    margin: auto;
+    width:90%;
     border-radius:25px;
     box-shadow: 12px 12px 2px 1px rgba(167, 167, 167, 0.2);;
+    display: flex;
 }
 .cv-selection-options{
     display:flex;
+    flex-direction: column;
 }
 .cv-selections-cvs{
     display:flex;
-    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+.cv-selection-item{
+    width:100px;
+}
+.cv-selection-item img{
+    width:100px;
 }
