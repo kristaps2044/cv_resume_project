@@ -22,11 +22,14 @@ html{
 .input-styles{
     margin: 10px;
 }
-
+html, body {
+    min-height: 100%;
+}
 body{
     background-color: rgb(255, 255, 255);
     margin:0px;
     padding: 0px;
+
 }
 
 .cv-selection{
@@ -53,7 +56,11 @@ body{
 .cv-selection-item{
     width:100px;
     margin-left: 2rem;
+    
 }
 .cv-selection-item img{
     width:100px;
+    border: solid; 
+    border-color: grey; 
+    border-radius: 4px;
 }
