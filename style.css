@@ -1,9 +1,10 @@
-.Virsraksts{
+.centrs{
     font-family: Merriweather, Georgia, serif;
     font-weight: 700;
     letter-spacing: 0;
     font-size: calc(65px * 0.9);
     text-align: center;
+    padding-top: 300px;
 }
 body{
     background-color: rgb(255, 255, 255);
