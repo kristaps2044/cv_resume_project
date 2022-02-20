@@ -6,6 +6,14 @@
     text-align: center;
     padding-top: 300px;
 }
+
+.url{
+    padding-right: 900px;
+    padding-top: 50px;
+    font-size: calc(55px * 0.9);
+
+}
+
 body{
     background-color: rgb(255, 255, 255);
 }
