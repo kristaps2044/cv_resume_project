@@ -1,14 +1,8 @@
-.virsraksts{
-    background-color: rgb(56, 67, 77);
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 25px;
-    height:500px;
-    color:white;
-    font-size:100px;
+.Virsraksts{
+    font-family: Merriweather, Georgia, serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: calc(65px * 0.9);
 }
 body{
     background-color: rgb(255, 0, 0);
