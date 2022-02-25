@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make your CV real</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/MakeCV.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@900&display=swap" rel="stylesheet">
@@ -27,34 +28,36 @@
         </div>
     </header>
 
-    <div class="form-window">
-        <form>
-             <label for="Your_name">Name</label>
-                <input class="input-styles" type="text" placeholder="Your name" name="Your-name"><br>
-            <label for="Surname">Surname</label>
-                <input class="input-styles" type="text" placeholder="Your last name" name="last-name"><br>
-            <label for="ed-level">Education</label><br>
-               <div id="ed-level">
-                    <label for="school">School</label>
-                    <input type="text" name="school">
-                    <label for="degree">Degree</label>
-                    <input type="text" name="degree">
-                <fieldset style="border: none;">
-                    <legend>Start & End dates</legend>
-                    <label for="date">Start</label>
-                    <input type="date" name="date">
-                    <label for="end-date">End</label>
-                    <input type="date" name="end-date">
-                </fieldset>
-               </div>
-             <div class="input-styles">
-                 <label for="choose-pic">
-                     <img src="./images/placeholder-runcis.png" style="width: 100px; height: auto; border: solid; border-color: grey; border-radius: 4px;">
-                 </label>
-             <input id="choose-pic" type="file" accept="image/*" style="display: none;">
-            </div>
-            <input type="submit" placeholder="submit" name="submit">
-        </form>
+    <div class="White_section">
+        <div class="form-window">
+            <form>
+                 <label for="Your_name">Name</label>
+                    <input class="input-styles" type="text" placeholder="Your name" name="Your-name"><br>
+                <label for="Surname">Surname</label>
+                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name"><br>
+                <label for="ed-level">Education</label><br>
+                   <div id="ed-level">
+                        <label for="school">School</label>
+                        <input type="text" name="school">
+                        <label for="degree">Degree</label>
+                        <input type="text" name="degree">
+                    <fieldset style="border: none;">
+                        <legend>Start & End dates</legend>
+                        <label for="date">Start</label>
+                        <input type="date" name="date">
+                        <label for="end-date">End</label>
+                        <input type="date" name="end-date">
+                    </fieldset>
+                   </div>
+                 <div class="input-styles">
+                     <label for="choose-pic">
+                         <img src="./images/placeholder-runcis.png" style="width: 100px; height: auto; border: solid; border-color: grey; border-radius: 4px;">
+                     </label>
+                 <input id="choose-pic" type="file" accept="image/*" style="display: none;">
+                </div>
+                <input type="submit" placeholder="submit" name="submit">
+            </form>
+        </div>
     </div>
 </body>
 </html>
