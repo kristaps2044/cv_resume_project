@@ -16,8 +16,12 @@
     flex-wrap: nowrap;
 }
 
-.choose-pic {
+#choose-pic {
     display: flex;
     flex: wrap;
+    cursor: pointer;
+}
+
+.ABC {
     cursor: pointer;
 }
