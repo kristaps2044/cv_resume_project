@@ -7,3 +7,17 @@
 .form-window{
     margin: 20px;
 }
+
+.input-styles {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.choose-pic {
+    display: flex;
+    flex: wrap;
+    
+}
