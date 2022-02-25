@@ -2,4 +2,8 @@
     margin: 0 auto;
     width: 1000px;
     background-color: #fff;
+    border-radius: 10px;
+}
+.form-window{
+    margin: 20px;
 }
