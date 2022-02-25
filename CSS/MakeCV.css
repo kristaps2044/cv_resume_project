@@ -14,10 +14,10 @@
     flex-direction: row;
     flex-flow: nowrap;
     flex-wrap: nowrap;
-    cursor: pointer;
 }
 
 .choose-pic {
     display: flex;
     flex: wrap;
+    cursor: pointer;
 }
