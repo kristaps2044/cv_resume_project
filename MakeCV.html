@@ -27,24 +27,30 @@
             </div>
         </div>
     </header>
-
-    <div class="White_section">
-        <div class="form-window">
+        <section class="White_section">
             <form class="form-window">
+                <div class="personal-info">
                 <h1>Personal info</h1>
                  <label for="Your_name">Name</label>
-                    <input class="input-styles" type="text" placeholder="Your name" name="Your-name"><br>
+                    <input class="input-styles" type="text" placeholder="Your name" name="Your-name">
                     <label for="email">Email</label>
                 <input class="input-styles" type="email" name="email" placeholder="something@email.com">
                 <label for="Surname">Last name</label>
-                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name"><br>
-                <label for="ed-level"> <h1>Education</h1></label><br>
+                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name">
+                    <div class="input-styles">Upload photo<br> 
+                    <label for="choose-pic" style="cursor: pointer;">
+                        <img class="input-styles" src="./images/placeholder-runcis.png" style="width: 64px; height: 64px; border: solid; border-color: grey; border-radius: 4px;">
+                    </label>
+                <input id="choose-pic" type="file" accept="image/*" style="display: none;">
+                    </div>
+                </div>
                    <div id="ed-level">
-                        <label for="school">School</label><br>
+                    <label for="ed-level"> <h1>Education</h1></label>
+                        <label for="school">School</label>
                         <input class="input-styles" type="text" name="school">
-                        <label for="degree">Degree</label><br>
+                        <label for="degree">Degree</label>
                         <input class="input-styles" type="text" name="degree">
-                        <label for="city">City</label><br>
+                        <label for="city">City</label>
                         <input class="input-styles" type="text" name="city">
                     <fieldset style="border: none;">
                         <legend class="input-styles">Start & End dates</legend>
@@ -53,17 +59,10 @@
                         <label for="end-date">End</label>
                         <input class="input-styles" type="date" name="end-date">
                     </fieldset>
-                   </div>
-                 <div class="input-styles">
-                     <label for="choose-pic" style="cursor: pointer;">
-                         Upload photo<br>
-                         <img class="input-styles" src="./images/placeholder-runcis.png" style="width: 64px; height: 64px; border: solid; border-color: grey; border-radius: 4px;">
-                     </label>
-                 <input id="choose-pic" type="file" accept="image/*" style="display: none;">
-                </div>
-                <input type="submit" placeholder="submit" name="submit">
-            </form>
-        </div>
-    </div>
+                    </div>
+                        <input type="submit" name="submit">         
+            </form>    
+        </section>
+   
 </body>
 </html>

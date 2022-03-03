@@ -3,21 +3,23 @@
     width: 1200px;
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 100px;
 }
 .form-window{
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content:space-around ;
+
+    
 }
 
 .input-styles {
-    display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
-    flex-wrap: nowrap;
+    text-align: left;
 }
 
 #choose-pic {
-    display: flex;
-    flex: wrap;
+    
     cursor: pointer;
 }
