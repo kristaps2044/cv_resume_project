@@ -29,7 +29,7 @@
     </header>
         <section class="White_section">
             <form class="form-window">
-                <div class="personal-info">
+                <div class="form-item">
                 <h1>Personal info</h1>
                  <label for="Your_name">Name</label>
                     <input class="input-styles" type="text" placeholder="Your name" name="Your-name">
@@ -44,7 +44,7 @@
                 <input id="choose-pic" type="file" accept="image/*" style="display: none;">
                     </div>
                 </div>
-                   <div id="ed-level">
+                <div class="form-item" id="ed-level">
                     <label for="ed-level"> <h1>Education</h1></label>
                         <label for="school">School</label>
                         <input class="input-styles" type="text" name="school">
@@ -52,15 +52,115 @@
                         <input class="input-styles" type="text" name="degree">
                         <label for="city">City</label>
                         <input class="input-styles" type="text" name="city">
-                    <fieldset style="border: none;">
-                        <legend class="input-styles">Start & End dates</legend>
+                        <legend><h3>Start&End dates</h3></legend>             
                         <label for="date">Start</label>
                         <input class="input-styles" type="date" name="date">
                         <label for="end-date">End</label>
                         <input class="input-styles" type="date" name="end-date">
-                    </fieldset>
-                    </div>
-                        <input type="submit" name="submit">         
+               
+                </div>
+                <div class="form-item">
+                    <h1>Languages</h1>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Reading</th>
+                            <th>Writing</th>
+                            <th>Speaking</th>
+                        </tr>
+                        <tr>
+                            <th>Latvian</th>
+                            <td>
+                                <select name="read-lat">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="write-lat">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="speak-lat">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>English</th>
+                            <td>
+                                <select name="read-eng">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="write-eng">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="speak-eng">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Russian</th>
+                            <td>
+                                <select name="read-rus">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="write-rus">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="speak-rus">
+                                    <option value="0"></option>
+                                    <option value="cant">Can't</option>
+                                    <option value="basic">Basic</option>
+                                    <option value="good">Good</option>
+                                    <option value="excelent">Excelent</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                        <input type="submit" name="submit">     
             </form>    
         </section>
    
