@@ -1,28 +1,28 @@
 .cv-selection{
     margin: auto;
-    margin-top: 30px;
-    width:90%;
-    border-radius:25px;
-    box-shadow: -12px -12px 2px 1px rgba(56, 56, 56, 0.2);;
+    margin-top: 10%;
+    width:75%;
+    height:60%;
+    background-color: rgb(255,255,255);
+    border-radius:10px;
     display: flex;
 }
-.cv-selection-options{
+.cv-selection-sidebar{
     display:flex;
     flex-direction: column;
     width:fit-content;
     border-right: 1px solid rgba(56, 56, 56, 0.2);
 }
-.cv-selection-options div{
+.cv-selection-sidebar div{
     width: 100px;
 }
 .cv-selections-cvs{
     display:flex;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px;
 }
 .cv-selection-item{
     width:100px;
     margin-left: 2rem;
-    
 }
 .cv-selection-item img{
     width:100px;
