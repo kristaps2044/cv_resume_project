@@ -1,0 +1,32 @@
+.cv-selection{
+    margin: auto;
+    margin-top: 30px;
+    width:90%;
+    border-radius:25px;
+    box-shadow: -12px -12px 2px 1px rgba(56, 56, 56, 0.2);;
+    display: flex;
+}
+.cv-selection-options{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    border-right: 1px solid rgba(56, 56, 56, 0.2);
+}
+.cv-selection-options div{
+    width: 100px;
+}
+.cv-selections-cvs{
+    display:flex;
+    padding: 10px 10px 10px 10px;
+}
+.cv-selection-item{
+    width:100px;
+    margin-left: 2rem;
+    
+}
+.cv-selection-item img{
+    width:100px;
+    border: solid; 
+    border-color: grey; 
+    border-radius: 4px;
+}
