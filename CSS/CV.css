@@ -1,0 +1,40 @@
+html{
+    background-color: grey;
+}
+body{
+    background-color: white;
+    margin:auto;
+    width:210mm;
+    height:297mm;
+}
+h1{
+    padding-top: 20px;
+}
+.center-text{
+    text-align:center;
+}
+section{
+    margin: auto;
+    width:150mm;
+}
+h2{
+    margin-top:3mm;
+    margin-bottom: 1mm;
+}
+h3{
+    margin-top:3mm;
+    margin-bottom: 1mm;
+}
+h4{
+    margin-top:2mm;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0mm;
+    margin-top:0mm;
+}
+hr{
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    width:150mm;
+}
