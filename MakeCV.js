@@ -23,7 +23,4 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     for(const values of inputs){
         console.log(values.value)}
-
-
-
     });
