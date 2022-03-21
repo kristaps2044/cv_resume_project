@@ -33,30 +33,41 @@
                 <article class="form-item">
                 <h1>Personal info</h1>
                  <label for="Your_name">Name</label>
-                    <input class="input-styles" type="text" placeholder="Your name" name="Your-name">
-                    <label for="email">Email</label>
-                <input class="input-styles" type="email" name="email" placeholder="something@email.com">
+                    <input class="input-styles" type="text" placeholder="Your name" name="your-name" id="firstName">
+                
                 <label for="Surname">Last name</label>
-                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name">
+                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name" id="lastName">
+                    <div>
+                    <label for="email">Email</label>
+                    <input class="input-styles" type="email" name="email" placeholder="something@email.com" id="email">
+                    </div>
                     <div>Upload photo<br>
                     <label for="choose-pic" style="cursor: pointer;">
-                        <img class="input-styles" id="inpImg" src="./images/placeholder-runcis.png" style="width: auto; height: 64px; border: solid; border-color: grey; border-radius: 4px;">
+                        <img  id="inpImg" src="./images/placeholder-runcis.png" style="width: auto; height: 64px; border: solid; border-color: grey; border-radius: 4px;">
                         <button id="newTabPreview" onclick="newTab()" style="border:solid; border-radius: 5px; font-family: fantasy; width: auto; height: 40px; letter-spacing: 0.4px;">Press to see image in new tab</button>
                     </label>
-                <input id="choose-pic" type="file" accept="image/*" style="display: none;">
+                <input id="choose-pic" type="file" accept="image/*" style="display: none;" name="image">
                     </div>
                 </article>
                 <article class="form-item" id="ed-level">
                     <label for="ed-level"> <h1>Education</h1></label>
                         <label for="school">School</label>
-                        <input class="input-styles" type="text" name="school">
-                        <label for="degree">Degree</label>
-                        <input class="input-styles" type="text" name="city">
+                        <input class="input-styles" type="text" name="school" id="school">
+                        <label for="faculty">Faculty</label>
+                        <input class="input-styles" type="text" name="faculty" id="faculty">
+                        <div>
+                            <label for="study-programme">Study programme</label>
+                            <input class="input-styles" type="text" name="study-programme" id="studyProgramme">
+                        </div>
+                        <div>
+                            <label for="degree">Degree / Education level</label>
+                            <input class="input-styles" type="text" name="city" id="degree">
+                        </div>
                         <legend><h3>Start&End dates</h3></legend>             
                         <label for="date">Start</label>
-                        <input class="input-styles" type="date" name="date">
+                        <input class="input-styles" type="date" name="date" id="startDate">
                         <label for="end-date">End</label>
-                        <input class="input-styles" type="date" name="end-date">
+                        <input class="input-styles" type="date" name="end-date" id="endDate">
                
                 </article>
                 <article class="form-item">
@@ -71,7 +82,7 @@
                         <tr>
                             <th>Latvian</th>
                             <td>
-                                <select class="input-styles" name="read-lat">
+                                <select class="input-styles" name="read-lat" id="latvianRead">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -80,7 +91,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="write-lat">
+                                <select class="input-styles" name="write-lat" id="latvianWrite">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -89,7 +100,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="speak-lat">
+                                <select class="input-styles" name="speak-lat" id="latvianSpeak">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -101,7 +112,7 @@
                         <tr>
                             <th>English</th>
                             <td>
-                                <select class="input-styles" name="read-eng">
+                                <select class="input-styles" name="read-eng"  id="englishRead">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -110,7 +121,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="write-eng">
+                                <select class="input-styles" name="write-eng"  id="englishWrite">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -119,7 +130,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="speak-eng">
+                                <select class="input-styles" name="speak-eng"  id="englishSpeak">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -131,7 +142,7 @@
                         <tr>
                             <th>Russian</th>
                             <td>
-                                <select class="input-styles" name="read-rus">
+                                <select class="input-styles" name="read-rus"  id="russianRead">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -140,7 +151,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="write-rus">
+                                <select class="input-styles" name="write-rus"  id="russianWrite">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -149,7 +160,7 @@
                                 </select>
                             </td>
                             <td>
-                                <select class="input-styles" name="speak-rus">
+                                <select class="input-styles" name="speak-rus"  id="russianSpeak">
                                     <option value="0"></option>
                                     <option value="cant">Can't</option>
                                     <option value="basic">Basic</option>
@@ -162,10 +173,10 @@
                 </article>
                 <article class="form-item">
                     <h1>Previous work experience</h1>
-                    <label for="Company_name">Company Name</label>
-                    <input class="input-styles" type="text" name="Company_name">
-                    <label for="Position">Position</label>
-                    <input class="input-styles" type="text" name="Position">
+                    <label for="company-name">Company Name</label>
+                    <input class="input-styles" type="text" name="company-name" id="companyName">
+                    <label for="position">Position</label>
+                    <input class="input-styles" type="text" name="position" id="companyPosition">
                     
                 </article>
                         <input type="submit" name="submit" id="submit">     

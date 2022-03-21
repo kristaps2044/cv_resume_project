@@ -21,6 +21,12 @@ imgInp.onchange = evt => {
 // When you submit you find all elements that are added by user.
 form.addEventListener('submit', function(e){
     e.preventDefault();
-    for(const values of inputs){
-        console.log(values.value)}
-    });
+    let CVData ={};
+    for(const input of inputs){
+        CVData[input.id] = input.value;
+    }
+    CVData.fullName = CVData.firstName+' '+CVData.lastName;
+    sessionStorage.setItem("CVData",JSON.stringify(CVData));
+    console.log(CVData);
+    window.open('./CV.html',"_self");
+  });
