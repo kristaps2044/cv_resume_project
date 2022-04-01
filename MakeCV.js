@@ -29,6 +29,7 @@ imgInp.onchange = evt => {
   };
 
 //saves all input values to sessionStorage
+const necessary = ['fullName','address','phoneNumber','email','school','degree'];
 form.addEventListener('submit', function(e){
     e.preventDefault();
     let CVData ={};
