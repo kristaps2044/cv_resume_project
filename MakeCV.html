@@ -33,14 +33,16 @@
                 <article class="form-item">
                 <h1>Personal info</h1>
                  <label for="Your_name">Name</label>
-                    <input class="input-styles" type="text" placeholder="Your name" name="your-name" id="firstName">
+                    <input class="input-styles" type="text" name="your-name" id="firstName">
                 
                 <label for="Surname">Last name</label>
-                    <input class="input-styles" type="text" placeholder="Your last name" name="last-name" id="lastName">
-                    <div>
+                    <input class="input-styles" type="text" name="last-name" id="lastName">
                     <label for="email">Email</label>
                     <input class="input-styles" type="email" name="email" placeholder="something@email.com" id="email">
-                    </div>
+                    <label for="address">Adress</label>
+                    <input class="input-styles" type="text" name="address" placeholder="Region/City/House or street name">
+                    <label for="number">Phone number</label>
+                    <input class="input-styles" type="number" name="number">
                     <div>Upload photo<br>
                     <label for="choose-pic" style="cursor: pointer;">
                         <img  id="inpImg" src="./images/placeholder-runcis.png" style="width: auto; height: 64px; border: solid; border-color: grey; border-radius: 4px;">
@@ -48,6 +50,10 @@
                     </label>
                 <input id="choose-pic" type="file" accept="image/*" style="display: none;" name="image">
                     </div>
+                </article>
+                <article class="form-item">
+                    <h1>About yourself & your goals</h1>
+                    <input class="input-styles" style="width: 97%; height: 50px; text-align-last: auto; text-align: justify; text-justify: auto; line-break: auto;" type="text" />
                 </article>
                 <article class="form-item" id="ed-level">
                     <label for="ed-level"> <h1>Education</h1></label>
