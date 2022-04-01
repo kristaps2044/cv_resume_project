@@ -39,3 +39,11 @@ hr{
     margin-bottom: 2mm;
     width:150mm;
 }
+#personalInfo{
+    display:flex;
+    justify-content: space-between;
+}
+.profile-picture{
+    height: 125px;
+    
+}
