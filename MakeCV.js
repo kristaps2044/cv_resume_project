@@ -5,12 +5,6 @@ let form = document.querySelector('.form-window');
 const TabPreview = document.querySelector('#newTabPreview');
 console.log(inputs);
 
-//Opens new tab on clicking the button next to added image.
-function newTab(){
-    const url = preview.src;
-    window.open(url);
-};
-
 //When you add image you can prieview it on the window that you clicked on.
 imgInp.onchange = evt => {
     const [file] = imgInp.files
