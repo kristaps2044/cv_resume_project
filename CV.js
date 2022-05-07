@@ -1,6 +1,6 @@
 let CVData = JSON.parse(sessionStorage.getItem('CVData'));
 console.log(CVData);
-let elements = ['fullName','phoneNumber','email','school','faculty','degree','studyProgramme', 'address'];
+let elements = ['fullName','phoneNumber','email','school','faculty','degree','studyProgramme', 'address','aboutYourself', 'startDate', 'endDate', 'latvianRead', 'latvianWrite', 'latvianSpeak',   ];
 
 function setData(element,data){
     document.getElementById(element).innerHTML = data;

@@ -3,7 +3,7 @@ let imgInp = document.querySelector('#choose-pic');
 let preview = document.querySelector('#inpImg');
 let form = document.querySelector('.form-window');
 const TabPreview = document.querySelector('#newTabPreview');
-console.log(inputs);
+console.log(inputs.value);
 
 //When you add image you can prieview it on the window that you clicked on.
 imgInp.onchange = evt => {
