@@ -18,6 +18,10 @@ section{
     margin: auto;
     width:150mm;
 }
+table{
+    width:100%;
+    text-align: left;
+}
 h2{
     margin-top:3mm;
     margin-bottom: 1mm;
